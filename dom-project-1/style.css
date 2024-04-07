@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.main-heading{
+    background-color: #33337a;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.main-heading h1{
+    color: beige;
+}
+#filter{
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+}
+.container{
+    margin: 55px;
+    border: 1px solid rgb(202, 183, 183);
+}
+.container h1{
+    color: green;
+    text-decoration: underline;
+}
+#addForm{
+    padding: 10px;
+}
+#item{
+    padding: 5px 20px;
+    outline: none;
+    border: 1px solid  rgb(202, 183, 183);   
+}
+.sub-container h2{
+    display: inline;
+    color: wheat;
+    background-color: #33337a;
+    padding: 0 10px;
+}
+#item:focus{
+    border: 1px solid #33337a;
+}
+#submit{
+    margin-left: 10px;
+    padding: 4px;
+    background-color: #33337a;
+    color: white;
+    text-transform: uppercase;
+}
+.sub-container{
+    margin: 50px;
+
+}
+.sub-container ul li{
+    margin: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 400px;
+    margin-left: 300px;
+    padding: 10px;
+    border: 1px solid rgb(202, 183, 183);   
+}
+.sub-container ul li button{
+    padding: 8px;
+    background-color: red;
+    color: bisque;
+    outline: none;
+    border: none;
+}
