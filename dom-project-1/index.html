@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom-1-project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+    <header class="main-heading">
+        <h1>Dom Items listing</h1>
+        <input type="text" id="filter" placeholder="search dom items">
+    </header>
+    <div class="container">
+        <h1>Add Dom</h1>
+        <form  id="addForm">
+        <input type="text" id="item">
+        <input type="submit" value="submit" id="submit">
+    </form>
+        <div class="sub-container">
+        <h2>Dom List</h2>
+        <hr>
+        <ul id="items">
+            <li>dir.document<button class = "delete">X</button></li>
+            <li>dir.doctype<button class = "delete">X</button></li>
+            <li>dir.html<button class = "delete">X</button></li>
+            <li>dir.title<button class = "delete">X</button></li>
+        </ul>
+    </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
