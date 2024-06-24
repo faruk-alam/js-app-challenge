@@ -1,0 +1,28 @@
+body{
+    font-family: "Bebas Neue", sans-serif;
+}
+label{
+    display: block;
+    text-align: center;
+    font-size: 4em;
+    font-weight: lighter;
+    color: rgb(68, 0, 255);
+}
+.button-section{
+    text-align: center;
+}
+.btn{
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 2px;
+    background-color: rgb(179, 11, 137);
+    font-size: large;
+    font-weight: bold;
+    color: #f1cfe0;
+    transition: all 0.30s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(226, 53, 183);
+}
