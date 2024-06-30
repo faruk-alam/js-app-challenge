@@ -1,0 +1,32 @@
+body{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#displayOtp{
+    font-size: 1.5em;
+    padding: 5px 15px;
+    color: rgb(12, 201, 53);
+    background-color: rgb(26, 22, 22);
+}
+button{
+    margin: 20px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: hsl(0, 4%, 69%);
+    font-weight: bold;
+    cursor: pointer;
+}
+.sr-otp{
+    margin: 20px 0;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(46, 36, 36);
+    color: beige;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    transition: backgroud-color 0.3s;
+}
+.sr-otp:hover{
+    background-color: rgb(116, 96, 96);
+    cursor: pointer;
+}
