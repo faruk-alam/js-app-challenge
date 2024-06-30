@@ -19,7 +19,9 @@ filter.addEventListener("keyup",itemFilter)
       listItem.appendChild(newEliment)
       var addButton = document.createElement("button")
       addButton.appendChild(document.createTextNode("X"))
+      addButton.className = "delete"
       newEliment.appendChild(addButton)
+
   }
 
   // function for deleting an item-

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>one time password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label id = "displayOtp">your OTP here</label> <br>
+    <button id="sendOtp">Get OTP</button><br>
+    <form  id="submitOtp">
+    <label for="otpCode">Insert OTP-CODE :</label> 
+    <input type="text" id="inputOtp">
+    <br>
+    <input type="submit" value="Submit"  class="sr-otp">
+    <input type="reset" value="Reset" id="resetOtp" class="sr-otp">
+    <h3 id="displayMessage"></h3>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
