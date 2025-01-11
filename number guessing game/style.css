@@ -1,0 +1,42 @@
+#container{
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;   
+    gap: 20px;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+#box  div{
+    height: 50px;
+    width: 80px;
+    border: 2px solid red;
+}
+label[for=guess]{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(35, 10, 196);
+}
+input[type=text]{
+    display: block;
+    outline: none;
+    text-align: center;
+    width: 50px;
+    border: 2px solid #ff008c;
+}
+button{
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: rgb(4, 80, 4);
+    color: rgb(240, 229, 234);
+}
+button:hover{
+    background-color: rgb(17, 206, 17);
+    cursor: pointer;
+}
